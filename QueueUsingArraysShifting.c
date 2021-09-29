@@ -52,7 +52,6 @@ int elementAtFront(struct Queue* Q){
 
 int isEmpty(struct Queue* Q){
     if(Q->rear==-1){
-        printf("Queue is Empty");
         return 1;
     }
 
